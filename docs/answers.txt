@@ -1,0 +1,41 @@
+(a)
+Username for 'https://github.com': thomas54015
+Password for 'https://thomas54015@github.com':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 963 bytes | 963.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/thomas54015/assignment2.git
+   f4975e5..05b6702  master -> master
+
+(b) 9, git log
+
+(c) Wed Sep 25 18:13:30 2019, git log .gitignore
+
+(d) 1. So that one can work on bugs without changing the master branch.
+    2. So that people can build new features before launching them.
+
+(e) git status shows you the current status of whats going on.
+    git log shows you past pushes and commits.
+
+(f) git log Vehicle.h
+
+(g) git log --grep="file"
+
+(h) I. Where there are parent classes and the child classes inherits from them
+    II. To have pointer of derived be able to point to base class. You can make
+    pointers of parent classes point to children objects.
+    III. To contain data in a single unit.
+
+(i) "Integration manager", each developer gets a public repository.
+    "Dictator and Lieutenants", works more like a pyramid where developers send
+    their code to lieutenants to work them out then send it to dictator who pushes
+    correctly to the main repository.
+
+(j) "Dictator and Lieutenants" would keep it more organized instead of everyone
+    pushing and taking too much control. Dictator and Lieutenants would help
+    make sure the code works better together and allows only limited control to
+    people who may not know as much.
