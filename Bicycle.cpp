@@ -22,7 +22,7 @@ void Bicycle::setGearCount(int gearCount) {
 }
 
 double Bicycle::mileageEstimate(double time) {
-    double mileage = 3 * time;
+    double mileage = 3 * (time/60);
     mileage += mileage * (myGearCount * 0.1);
     return mileage;
 }
