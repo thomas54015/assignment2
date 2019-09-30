@@ -1,8 +1,11 @@
-driving: Bicycle.o Car.o PoweredVehicle.o Vehicle.o Skateboard.o
-	g++ -o driving main.cpp Bicycle.o Car.o PoweredVehicle.o Vehicle.o Skateboard.o
+driving: Bicycle.o Car.o PoweredVehicle.o Vehicle.o Skateboard.o Jet.o
+	g++ -o driving main.cpp Bicycle.o Car.o PoweredVehicle.o Vehicle.o Skateboard.o Jet.o
 
 Skateboard.o: Skateboard.cpp Skateboard.h
 	g++ -c Skateboard.cpp
+
+Jet.o: Jet.cpp Jet.h
+	g++ -c Jet.cpp
 
 Bicycle.o: Bicycle.cpp Bicycle.h
 	g++ -c Bicycle.cpp
