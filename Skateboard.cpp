@@ -3,7 +3,6 @@
 //
 // Used Esteban Parra's code as the main layout for this page.
 #include "Skateboard.h"
-#include <iostream>
 #include <ctime>
 #include <math.h>
 #include <cstdlib>
