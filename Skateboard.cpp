@@ -23,14 +23,19 @@ double Skateboard::mileageEstimate(double stime) {
     // making it between .1 and .5
     if (randomMileage > .6)
     {
+      // By doing this, I can garentee its less then .5
       randomMileage -= .5;
     }
-    else if (randomMileage < .1)
+    if (randomMileage < .1)
     {
+      // This makes sure randomMileage is greater than .1
       randomMileage += .1;
     }
     if (mtime > 25 && mtime < 250)
     {
+      // I ended up finding th fmod function as a solution
+      // on stackoverflow
+      //https://stackoverflow.com/questions/9278224/invalid-operands-of-types-int-and-double-to-binary-operator
       ranCheck = fmod(rand(), (mtime / 3)) + 1;
     }
     if (ranCheck > (mtime/3))
