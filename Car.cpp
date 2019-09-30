@@ -34,7 +34,7 @@ void Car::setEngineSize(string engineSize) {
 }
 
 double Car::mileageEstimate(double time) {
-    double mileage = 15 * time;
+    double mileage = 15 * (time/60);
     if (fuelType == "electricity") {
         mileage += mileage * 0.05;
     }
