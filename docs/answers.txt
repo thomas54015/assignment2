@@ -39,3 +39,13 @@ To https://github.com/thomas54015/assignment2.git
     pushing and taking too much control. Dictator and Lieutenants would help
     make sure the code works better together and allows only limited control to
     people who may not know as much.
+
+
+3. OOP principles
+    Yes, the Diving simulator uses both polymorphism and encapsulation. The polymorphism
+    can mostly be seen in the main.cpp. There is an array that has a pointer built
+    from the parent class Vehicle. This pointer then points to other children objects
+    which is what makes it polymorphism. The encapsulation can be seen in most of the
+    class files. There is member data in most that is kept private and only accessible
+    by the class itself. Being it need access functions, the data is wrapped up to
+    one part. This is a form of encapsulation.
